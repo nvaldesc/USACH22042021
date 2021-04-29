@@ -20,9 +20,7 @@ public class ProductoRefrigerado extends Producto{
 
     @Override
     public String toString() {
-        return "ProductoRefrigerado{" +
-                "codOrganismoAlimentaria=" + codOrganismoAlimentaria +
-                '}';
+        return "codOrganismoAlimentaria=" + codOrganismoAlimentaria;
     }
 
 

@@ -19,8 +19,8 @@ public class Producto {
 
     @Override
     public String toString() {
-        return "Producto:" + '\n' +
-                "fechaCad='" + fechaCad + '\n' +
+        return "Producto:" +
+                "fechaCad='" + fechaCad+
                 ", numLote=" + numLote;
     }
 

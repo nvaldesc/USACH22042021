@@ -22,7 +22,7 @@ public class ProductoCongelado extends Producto{
 
     @Override
     public String toString() {
-        return super.toString()+ '\n' +"temCong: "+this.tempCongelacionRecomendada;
+        return super.toString()+ "temCong: "+this.tempCongelacionRecomendada;
     }
 
     public int getTempCongelacionRecomendada() {

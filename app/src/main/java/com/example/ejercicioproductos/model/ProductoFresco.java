@@ -25,10 +25,8 @@ public class ProductoFresco extends Producto{
 
     @Override
     public String toString() {
-        return "ProductoFresco{" +
-                "fechaEnvasado='" + fechaEnvasado + '\'' +
-                ", paisOrigen='" + paisOrigen + '\'' +
-                '}';
+        return "fechaEnvasado='" + fechaEnvasado +
+                ", paisOrigen='" + paisOrigen;
     }
 
     public String getFechaEnvasado() {
